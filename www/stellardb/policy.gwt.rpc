@@ -126,11 +126,13 @@ com.appjangle.messages.shared.v01.UnauthorizedResponseData, true, true, true, tr
 [Lcom.appjangle.messages.shared.v01.UnauthorizedResponseData;, true, true, true, true, [Lcom.appjangle.messages.shared.v01.UnauthorizedResponseData;/1118756730, 1118756730
 com.appjangle.messages.shared.v01.UndefinedResponseData, true, true, true, true, com.appjangle.messages.shared.v01.UndefinedResponseData/831679358, 831679358
 [Lcom.appjangle.messages.shared.v01.UndefinedResponseData;, true, true, true, true, [Lcom.appjangle.messages.shared.v01.UndefinedResponseData;/3500907860, 3500907860
+[Lcom.appjangle.messages.sql.DisableSqlMessage;, true, true, true, true, [Lcom.appjangle.messages.sql.DisableSqlMessage;/4275467078, 4275467078
 [Lcom.appjangle.messages.sql.EnableSqlMessage;, true, true, true, true, [Lcom.appjangle.messages.sql.EnableSqlMessage;/2194348607, 2194348607
 [Lcom.appjangle.messages.sql.IsSqlEnabledMessage;, true, true, true, true, [Lcom.appjangle.messages.sql.IsSqlEnabledMessage;/2344796365, 2344796365
 [Lcom.appjangle.messages.sql.ResetSqlMessage;, true, true, true, true, [Lcom.appjangle.messages.sql.ResetSqlMessage;/4140431863, 4140431863
 [Lcom.appjangle.messages.sql.SqlMessage;, true, true, true, true, [Lcom.appjangle.messages.sql.SqlMessage;/2767821578, 2767821578
 [Lcom.appjangle.messages.sql.SqlQueryMessage;, true, true, true, true, [Lcom.appjangle.messages.sql.SqlQueryMessage;/4173718239, 4173718239
+[Lcom.appjangle.messages.sql.SqlReplicateMessage;, true, true, true, true, [Lcom.appjangle.messages.sql.SqlReplicateMessage;/1912430987, 1912430987
 [Lcom.appjangle.messages.sql.responses.SqlQueryResponse;, true, true, true, true, [Lcom.appjangle.messages.sql.responses.SqlQueryResponse;/1973650898, 1973650898
 [Lcom.appjangle.messages.sql.responses.SqlResponse;, true, true, true, true, [Lcom.appjangle.messages.sql.responses.SqlResponse;/659888708, 659888708
 com.appjangle.messages.sql.responses.v01.SqlQueryResponseData, true, true, true, true, com.appjangle.messages.sql.responses.v01.SqlQueryResponseData/1838336214, 1838336214
@@ -140,6 +142,8 @@ com.appjangle.messages.sql.results.v01.TableStorageData, true, true, true, true,
 [Lcom.appjangle.messages.sql.results.v01.TableStorageData;, true, true, true, true, [Lcom.appjangle.messages.sql.results.v01.TableStorageData;/1065516113, 1065516113
 com.appjangle.messages.sql.v01.BaseSqlMessageData, true, false, true, false, com.appjangle.messages.sql.v01.BaseSqlMessageData/2950435157, 2950435157
 [Lcom.appjangle.messages.sql.v01.BaseSqlMessageData;, true, true, true, true, [Lcom.appjangle.messages.sql.v01.BaseSqlMessageData;/2238426111, 2238426111
+com.appjangle.messages.sql.v01.DisableSqlMessageData, true, true, true, true, com.appjangle.messages.sql.v01.DisableSqlMessageData/1533324109, 1533324109
+[Lcom.appjangle.messages.sql.v01.DisableSqlMessageData;, true, true, true, true, [Lcom.appjangle.messages.sql.v01.DisableSqlMessageData;/1641631933, 1641631933
 com.appjangle.messages.sql.v01.EnableSqlMessageData, true, true, true, true, com.appjangle.messages.sql.v01.EnableSqlMessageData/3197220401, 3197220401
 [Lcom.appjangle.messages.sql.v01.EnableSqlMessageData;, true, true, true, true, [Lcom.appjangle.messages.sql.v01.EnableSqlMessageData;/2108542597, 2108542597
 com.appjangle.messages.sql.v01.IsSqlEnabledMessageData, true, true, true, true, com.appjangle.messages.sql.v01.IsSqlEnabledMessageData/1416990290, 1416990290
@@ -148,6 +152,8 @@ com.appjangle.messages.sql.v01.ResetSqlMessageData, true, true, true, true, com.
 [Lcom.appjangle.messages.sql.v01.ResetSqlMessageData;, true, true, true, true, [Lcom.appjangle.messages.sql.v01.ResetSqlMessageData;/4082563937, 4082563937
 com.appjangle.messages.sql.v01.SqlQueryMessageData, true, true, true, true, com.appjangle.messages.sql.v01.SqlQueryMessageData/3729669260, 3729669260
 [Lcom.appjangle.messages.sql.v01.SqlQueryMessageData;, true, true, true, true, [Lcom.appjangle.messages.sql.v01.SqlQueryMessageData;/2585575893, 2585575893
+com.appjangle.messages.sql.v01.SqlReplicateMessageData, true, true, true, true, com.appjangle.messages.sql.v01.SqlReplicateMessageData/608165114, 608165114
+[Lcom.appjangle.messages.sql.v01.SqlReplicateMessageData;, true, true, true, true, [Lcom.appjangle.messages.sql.v01.SqlReplicateMessageData;/2296286611, 2296286611
 com.appjangle.persistence.database.v01.KeyValueStoreEntriesData, true, true, true, true, com.appjangle.persistence.database.v01.KeyValueStoreEntriesData/1489995631, 1489995631
 [Lcom.appjangle.persistence.database.v01.KeyValueStoreEntriesData;, true, true, true, true, [Lcom.appjangle.persistence.database.v01.KeyValueStoreEntriesData;/1306262722, 1306262722
 com.appjangle.persistence.database.v01.StoreIdData, true, true, true, true, com.appjangle.persistence.database.v01.StoreIdData/1388722682, 1388722682
@@ -434,6 +440,7 @@ nx.auth.v01.TokenData, true, true, true, true, nx.auth.v01.TokenData/2101868268,
 nx.auth.v01.TokenWithoutSecretData, true, true, true, true, nx.auth.v01.TokenWithoutSecretData/1676680116, 1676680116
 [Lnx.auth.v01.TokenWithoutSecretData;, true, true, true, true, [Lnx.auth.v01.TokenWithoutSecretData;/3557454964, 3557454964
 [Lnx.auth.v01.Token;, true, true, true, true, [Lnx.auth.v01.Token;/1669511098, 1669511098
+nx.client.gwt.services.GwtRemoteService, false, false, false, false, _, 1260775617
 [Lnx.core.Addressable;, true, true, true, true, [Lnx.core.Addressable;/3641001235, 3641001235
 nx.core.decorators.v01.AddressableValue, true, true, true, true, nx.core.decorators.v01.AddressableValue/1353670372, 1353670372
 [Lnx.core.decorators.v01.AddressableValue;, true, true, true, true, [Lnx.core.decorators.v01.AddressableValue;/3304278639, 3304278639
@@ -657,7 +664,7 @@ nx.remote.messages.v01.CommitMessageData, true, true, true, true, nx.remote.mess
 nx.remote.messages.v01.CommitResponseData, true, true, true, true, nx.remote.messages.v01.CommitResponseData/1219085, 1219085
 [Lnx.remote.messages.v01.CommitResponseData;, true, true, true, true, [Lnx.remote.messages.v01.CommitResponseData;/100531174, 100531174
 nx.remote.messages.v01.DummyMessageData, true, true, true, true, nx.remote.messages.v01.DummyMessageData/37825864, 37825864
-[Lnx.remote.messages.v01.DummyMessageData;, true, true, true, true, [Lnx.remote.messages.v01.DummyMessageData;/2219874199, 2219874199
+[Lnx.remote.messages.v01.DummyMessageData;, false, false, true, true, [Lnx.remote.messages.v01.DummyMessageData;/2219874199, 2219874199
 nx.remote.messages.v01.DummyResponseData, true, true, true, true, nx.remote.messages.v01.DummyResponseData/3671011084, 3671011084
 [Lnx.remote.messages.v01.DummyResponseData;, true, true, true, true, [Lnx.remote.messages.v01.DummyResponseData;/3094170995, 3094170995
 nx.remote.messages.v01.PostMessage, true, true, true, true, nx.remote.messages.v01.PostMessage/172224556, 172224556
@@ -681,8 +688,7 @@ nx.remote.messages.v02.PullVersionsResponseData, true, true, true, true, nx.remo
 nx.remote.messages.v03.PullVersionsResponseData, true, true, true, true, nx.remote.messages.v03.PullVersionsResponseData/1823354185, 1823354185
 [Lnx.remote.messages.v03.PullVersionsResponseData;, true, true, true, true, [Lnx.remote.messages.v03.PullVersionsResponseData;/2066694169, 2066694169
 nx.remote.nodes.v01.AuthorizationException, true, true, true, true, nx.remote.nodes.v01.AuthorizationException/65304044, 65304044
-[Lnx.remote.nodes.v01.AuthorizationException;, true, true, true, true, [Lnx.remote.nodes.v01.AuthorizationException;/824873593, 824873593
-nx.rpcclientgwt.internal.service.SerializeAllService, false, false, false, false, _, 2920394160
+[Lnx.remote.nodes.v01.AuthorizationException;, false, false, true, true, [Lnx.remote.nodes.v01.AuthorizationException;/824873593, 824873593
 nx.serializer.configurations.XStreamFormat, true, true, true, true, nx.serializer.configurations.XStreamFormat/2783632081, 2783632081
 [Lnx.serializer.configurations.XStreamFormat;, true, true, true, true, [Lnx.serializer.configurations.XStreamFormat;/4179214543, 4179214543
 nx.sync.VersionConflictType, true, true, true, true, nx.sync.VersionConflictType/621666532, 621666532
