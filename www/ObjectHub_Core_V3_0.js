@@ -1,4 +1,4 @@
- /**
+/**
 LAZYLOAD.js
 */
 
@@ -284,7 +284,15 @@ window.Libraries.requirePriv = function() {
   priv = {};
   priv.requireOne = function(node, contextVariables, callback) {
     return window.Libraries.install(node.uri(), node.value(), contextVariables, function(ex, lib) {
-      return callback(ex, lib);
+      var isFirefox;
+      isFirefox = typeof InstallTrigger !== 'undefined';
+      if (!isFirefox) {
+        return callback(ex, lib);
+      } else {
+        return setTimeout((function() {
+          return callback(ex, lib);
+        }), 0);
+      }
     });
   };
   priv.createFunction = function(node, contextVariables) {
